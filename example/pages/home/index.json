@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "Spui Weapp",
   "usingComponents": {
-    "spui-cell": "../../dist/cell/index",
-    "spui-cell-group": "../../dist/cell-group/index"
+
   }
 }

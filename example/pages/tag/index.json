@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "Spui Weapp",
   "usingComponents": {
-    "spui-tag":"../../dist/tag/index"
+  
   }
 }

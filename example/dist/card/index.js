@@ -1,6 +1,6 @@
 Component({
-  data:{
-    prefixCls : 'spui-weapp-card'
+  data: {
+    prefixCls: 'spui-weapp-card'
   },
   externalClasses: ["custom-class"],
   options: {
@@ -9,13 +9,11 @@ Component({
   properties: {
     showHeader: {
       type: Boolean,
-      value:true,
-      description: "是否显示头部"
+      value: true
     },
     title: {
       type: String,
-      value:'',
-      description: "title"
+      value: ''
     }
   }
 });

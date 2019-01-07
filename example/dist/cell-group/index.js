@@ -1,6 +1,6 @@
 Component({
-  data:{
-    prefixCls : 'spui-weapp-cell-group'
+  data: {
+    prefixCls: 'spui-weapp-cell-group'
   },
   properties: {
     border: {

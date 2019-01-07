@@ -1,6 +1,6 @@
 Component({
-  data:{
-    prefixCls : 'spui-weapp-cell'
+  data: {
+    prefixCls: 'spui-weapp-cell'
   },
   externalClasses: ["custom-class"],
   options: {
@@ -8,37 +8,32 @@ Component({
   },
   properties: {
     title: {
-      type: String,
-      description: "左侧标题"
+      type: String
     },
     description: {
-      type: String,
-      description: "标题下方的描述信息"
+      type: String
     },
     value: {
       type: String,
-      value:'',
-      description: "右侧内容"
+      value: ''
     },
     isLink: {
       type: Boolean,
-      value: false,
-      description: "是否展示右侧箭头"
+      value: false
     },
-    titleWidth:{
+    titleWidth: {
       type: Number,
-      value: '100',
-      description: "title部分的宽度"
+      value: '100'
     },
-    border:{
+    border: {
       type: Boolean,
-      value: true,
-      description: "是否显示边框"
+      value: true
     }
   },
   methods: {
     cellTap() {
-      this.triggerEvent("click", {});
+      this.triggerEvent("click", {}, {});
     }
+
   }
 });

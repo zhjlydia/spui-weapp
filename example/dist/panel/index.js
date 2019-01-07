@@ -1,6 +1,6 @@
 Component({
-  data:{
-    prefixCls : 'spui-weapp-panel'
+  data: {
+    prefixCls: 'spui-weapp-panel'
   },
   externalClasses: ["custom-class"],
   options: {
@@ -9,8 +9,7 @@ Component({
   properties: {
     title: {
       type: String,
-      value:'',
-      description: "title"
+      value: ''
     }
   }
 });

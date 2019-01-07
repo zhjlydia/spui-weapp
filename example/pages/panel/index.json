@@ -1,7 +1,5 @@
 {
   "navigationBarTitleText": "Spui Weapp",
   "usingComponents": {
-    "spui-panel":"../../dist/panel/index",
-    "spui-icon":"../../dist/icon/index"
   }
 }

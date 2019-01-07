@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es6",
+      "noImplicitThis": true,
+      "noImplicitUseStrict": true,
+      "paths": {
+        "@/*": ["src/*"]
+      },
+    },
+    "include": [
+      "types/**/*",
+      "src/**/*.ts"
+    ]
+  }
+  

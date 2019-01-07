@@ -1,6 +1,6 @@
 Component({
-  data:{
-    prefixCls : 'spui-weapp-icon'
+  data: {
+    prefixCls: 'spui-weapp-icon'
   },
   externalClasses: ["custom-class"],
   properties: {

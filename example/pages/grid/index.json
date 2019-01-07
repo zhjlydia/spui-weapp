@@ -1,7 +1,5 @@
 {
   "navigationBarTitleText": "Layout 布局",
   "usingComponents": {
-    "spui-row": "../../dist/g-row/index",
-    "spui-col": "../../dist/g-col/index"
   }
 }

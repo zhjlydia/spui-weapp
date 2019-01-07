@@ -1,5 +1,4 @@
 {
-  "pages": ["pages/home/index","pages/cell/index","pages/grid/index","pages/panel/index","pages/tag/index"],
   "window": {
     "navigationBarBackgroundColor": "#f8f8f8",
     "navigationBarTitleText": "Spui Weapp",
@@ -7,8 +6,21 @@
     "backgroundTextStyle": "dark",
     "backgroundColor": "#f8f8f8"
   },
+  "pages": [
+    "pages/home/index",
+    "pages/cell/index",
+    "pages/grid/index",
+    "pages/panel/index",
+    "pages/tag/index"
+  ],
   "usingComponents": {
     "spui-cell": "../dist/cell/index",
-    "spui-cell-group": "../dist/cell-group/index"
+    "spui-cell-group": "../dist/cell-group/index",
+    "spui-icon":"../dist/icon/index",
+    "spui-card":"../dist/card/index",
+    "spui-row": "../dist/g-row/index",
+    "spui-col": "../dist/g-col/index",
+    "spui-panel":"../dist/panel/index",
+    "spui-tag":"../dist/tag/index"
   }
 }
