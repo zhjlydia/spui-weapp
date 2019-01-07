@@ -1,0 +1,24 @@
+@import "../common/styles/custom.less";
+@import "../common/styles/mixins/border.less";
+
+@tag-prefix-cls: ~"@{css-prefix}tag";
+
+.@{tag-prefix-cls} {
+  display:inline-block;
+  font-size:20rpx;
+  padding:5rpx;
+  color:#fff;
+  border-radius:5rpx;
+  margin:0 5rpx;
+
+  &::after {
+    border-color: currentColor;
+    border-radius: 5rpx;
+  }
+  &-round{
+    border-radius:1000rpx;
+    &::after{
+      border-radius:1000rpx;
+    }
+  }
+}

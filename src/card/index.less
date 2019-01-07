@@ -1,0 +1,27 @@
+@import "../common/styles/custom.less";
+@import "../common/styles/mixins/border.less";
+
+@caed-prefix-cls: ~"@{css-prefix}card";
+
+.@{caed-prefix-cls} {
+  position: relative;
+  background-color:@white;
+  font-size:30rpx;
+  &-header{
+    padding:0 30rpx;
+    height:90rpx;
+  }
+  &-title{
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '';
+      display: inline-block;
+      width:10rpx;
+      height:30rpx;
+      background:linear-gradient(-180deg,rgba(255,114,52,1),rgba(255,136,68,1));
+      border-radius:2rpx;
+      margin-right: 10rpx;
+  }
+  }
+}

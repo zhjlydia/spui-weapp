@@ -1,0 +1,47 @@
+<view class="demo-block">
+  <view class="demo-title">基础用法</view>
+  <view>
+    <spui-tag color="#59c06c">
+       进行中
+    </spui-tag>
+    <spui-tag color="#ffb51f">
+       仓库中
+    </spui-tag>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="demo-title">空心样式</view>
+  <view>
+    <spui-tag color="#59c06c" hollow>
+       进行中
+    </spui-tag>
+    <spui-tag color="#ffb51f" hollow>
+       仓库中
+    </spui-tag>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="demo-title">圆角样式</view>
+  <view>
+    <spui-tag color="#59c06c" hollow round>
+       进行中
+    </spui-tag>
+    <spui-tag color="#ffb51f" hollow round>
+       仓库中
+    </spui-tag>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="demo-title">自定义大小</view>
+  <view>
+    <spui-tag color="#59c06c" hollow round size="{{26}}">
+       进行中
+    </spui-tag>
+    <spui-tag color="#ffb51f" hollow round size="{{30}}">
+       仓库中
+    </spui-tag>
+  </view>
+</view>

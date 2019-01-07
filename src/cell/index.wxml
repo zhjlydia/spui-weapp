@@ -1,0 +1,17 @@
+<view class="custom-class flex-row {{prefixCls}} {{ !border ? 'no-border' : '' }}" bind:tap="cellTap">
+  <view style="{{ titleWidth ? 'max-width:' + titleWidth + ';min-width:' + titleWidth : '' }}" class="{{prefixCls+'-title'}}">
+    <block wx:if="{{ title }}">
+      {{ title }}
+      <view wx:if="{{ description }}" class="{{prefixCls+'-description'}}">{{ description }}</view>
+    </block>
+    <slot wx:else name="title" />
+  </view>
+<view class="flex-row">
+  <view class="{{prefixCls+'-value'}}">
+    <block wx:if="{{ value!==''}}">{{ value }}</block>
+    <slot wx:else/>
+  </view>
+
+  <spui-icon wx:if="{{ isLink }}" type="chevron-right" class="{{prefixCls+'-right-icon'}}"/>
+</view>
+</view>

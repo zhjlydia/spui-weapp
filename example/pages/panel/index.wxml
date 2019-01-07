@@ -1,0 +1,25 @@
+<view class="demo-block">
+  <view class="demo-title">基础用法</view>
+  <view class="spui-weapp-border-top">
+    <spui-panel title="单行">
+       <view style="padding:30rpx">内容</view>
+    </spui-panel>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="demo-title">高级用法</view>
+  <view class="spui-weapp-border-top">
+    <spui-panel title="单行">
+       <view class="panel-demo-right flex-row" slot="header-right">
+        详细数据
+        <spui-icon type="chevron-right" custom-class="vertical-top"></spui-icon>
+       </view>
+       <view style="padding:30rpx" class="flex-row">
+         <view>0</view>
+         <view>1</view>
+         <view>2</view>
+       </view>
+    </spui-panel>
+  </view>
+</view>

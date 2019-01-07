@@ -1,0 +1,1 @@
+@import '../common/styles/common.wxss';.spui-weapp-tag{display:inline-block;font-size:20rpx;padding:5rpx;color:#fff;border-radius:5rpx;margin:0 5rpx}.spui-weapp-tag::after{border-color:currentColor;border-radius:5rpx}.spui-weapp-tag-round{border-radius:1000rpx}.spui-weapp-tag-round::after{border-radius:1000rpx}

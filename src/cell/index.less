@@ -1,0 +1,36 @@
+@import "../common/styles/custom.less";
+@import "../common/styles/mixins/border.less";
+
+@cell-prefix-cls: ~"@{css-prefix}cell";
+
+.@{cell-prefix-cls} {
+  width: 100%;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  position: relative;
+  background-color: @white;
+  color: @text-color;
+  font-size: @font-size-large;
+  min-height:90rpx;
+  &::after {
+    .border-bottom(@border-color-base,30rpx);
+  }
+  &-description {
+    color: @light-text-color;
+    font-size: @font-size-small;
+    margin-top: 3px;
+    line-height: 18px;
+  }
+  &-value {
+    color: @light-text-color;
+    overflow: hidden;
+    text-align: right;
+  }
+  &-right-icon {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: @icon-color;
+  }
+}

@@ -1,0 +1,6 @@
+<view
+  class="custom-class {{ prefixCls }} {{round?prefixCls+'-round':''}} {{hollow?'spui-weapp-border-all':''}}"
+  style="{{ style }}"
+>
+  <slot />
+</view>

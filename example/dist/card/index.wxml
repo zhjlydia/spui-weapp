@@ -1,0 +1,7 @@
+<view class="custom-class {{prefixCls}} {{ border ? 'spui-weapp-border-all' : '' }}">
+  <view wx:if="{{ showHeader }}" class="{{prefixCls+'-header'}} flex-row">
+    <text class="{{prefixCls+'-title'}}">{{title}}</text>
+    <slot name="header-right"></slot>
+  </view>
+  <view class="{{prefixCls+'-body'}}"><slot></slot></view>
+</view>

@@ -1,0 +1,1 @@
+<view class="custom-class {{ prefixCls }} clearfix"><slot></slot></view>

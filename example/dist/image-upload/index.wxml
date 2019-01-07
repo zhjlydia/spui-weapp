@@ -1,0 +1,7 @@
+<view class="custom-class {{prefixCls}} {{ border ? 'spui-weapp-border-all' : '' }}">
+  <view class="{{prefixCls+'-header'}} flex-row">
+      <view class="{{prefixCls+'-title'}}">{{title}}</view>
+      <view class="{{prefixCls+'-header-right'}}"><slot name="header-right"></slot></view>
+  </view>
+  <view class="{{prefixCls+'-body'}}"><slot></slot></view>
+</view>

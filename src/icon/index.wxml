@@ -1,0 +1,1 @@
+<view class="custom-class {{ prefixCls }} {{ type === '' ? '' : prefixCls+'-' +  type }} " style="font-size: {{ size }}px; {{ color ? 'color:' + color : '' }}"></view>

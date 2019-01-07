@@ -1,0 +1,16 @@
+.dark,
+.light {
+  color: #fff;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+.dark {
+  background-color: #f86319;
+}
+
+.light {
+  background-color: #eeb193;
+}

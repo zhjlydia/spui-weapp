@@ -1,0 +1,3 @@
+<view class="{{prefixCls}} {{ border ? 'spui-weapp-border-top-bottom' : '' }}">
+  <slot />
+</view>

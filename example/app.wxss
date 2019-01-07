@@ -1,0 +1,26 @@
+@import './dist/common/styles/common.wxss';
+page {
+  color: #333;
+  font-size: 30rpx;
+  background: #f8f8f8;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0 0 100rpx;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'PingFang SC', Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, Arial, sans-serif;
+}
+.demo-block{
+  margin-bottom:30rpx;
+}
+.demo-title {
+  height:90rpx;
+  line-height:90rpx;
+  padding:0 30rpx;
+  text-align:left;
+}
+.vertical-top{
+  vertical-align: top;
+}
+.vertical-middle{
+  vertical-align: middle;
+}

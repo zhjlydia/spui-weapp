@@ -1,0 +1,14 @@
+{
+  "pages": ["pages/home/index","pages/cell/index","pages/grid/index","pages/panel/index","pages/tag/index"],
+  "window": {
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "Spui Weapp",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f8f8f8"
+  },
+  "usingComponents": {
+    "spui-cell": "../dist/cell/index",
+    "spui-cell-group": "../dist/cell-group/index"
+  }
+}

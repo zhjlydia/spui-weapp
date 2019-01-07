@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="title">
+    <view class="title-text">Spui Weapp</view>
+  </view>
+  <view class="desc">小程序 UI 组件库</view>
+
+  <block wx:for="{{ list }}" wx:for-item="group" wx:key="group.title">
+    <view class="mobile-nav">
+      <view class="mobile-nav__title">{{ group.groupName }}</view>
+      <spui-cell-group>
+        <spui-cell
+          wx:for="{{ group.list }}"
+          wx:key="item.title"
+          is-link
+          data-path="/pages{{ item.path }}/index"
+          title="{{ item.title }}" bind:click="goView"
+        ></spui-cell>
+      </spui-cell-group>
+    </view>
+  </block>
+</view>

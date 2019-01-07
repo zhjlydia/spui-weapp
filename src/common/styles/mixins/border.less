@@ -1,0 +1,27 @@
+.border-common() {
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: center;
+}
+
+.border(@border-color: @border-color-base) {
+  .border-common();
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  transform: scale(0.5);
+  border: 0 solid @border-color;
+}
+
+.border-bottom(@border-color: @border-color-base, @left: 0) {
+  .border-common();
+  top: auto;
+  left: @left;
+  right: 0;
+  bottom: 0;
+  transform: scaleY(0.5);
+  border-bottom: 1rpx solid @border-color;
+}

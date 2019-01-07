@@ -1,0 +1,65 @@
+@import "./mixins/border.less";
+@import "custom.less";
+
+.@{css-prefix}border{
+  &-all,&-top,&-left,&-right,&-bottom,&-top-bottom{
+    position: relative;
+
+  &::after {
+    .border();
+  }
+  }
+  &-top::after{
+    border-top-width: 1px;
+  }
+  &-bottom::after{
+    border-bottom-width: 1px;
+  }
+  &-top-bottom::after{
+    border-width: 1px 0;
+  }
+  &-left::after{
+    border-left-width: 1px;
+  }
+  &-right::after{
+    border-right-width: 1px;
+  }
+  &-all::after{
+    border-width:1px;
+  }
+}
+.no-border::after {
+  display: none;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.flex-column{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.clearfix{
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.marR10{
+  margin-right:10rpx;
+}
+.@{css-prefix}round{
+  border-radius:1000rpx;
+  &::after{
+    border-radius:1000rpx;
+  }
+}

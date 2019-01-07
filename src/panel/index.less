@@ -1,0 +1,30 @@
+@import "../common/styles/custom.less";
+@import "../common/styles/mixins/border.less";
+
+@caed-prefix-cls: ~"@{css-prefix}panel";
+
+.@{caed-prefix-cls} {
+  position: relative;
+  background-color:@white;
+  font-size:30rpx;
+  &-header{
+    padding:0 30rpx;
+    height:90rpx;
+  }
+  &-title{
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '';
+      display: inline-block;
+      width:10rpx;
+      height:30rpx;
+      background:@primary-color;
+      border-radius:2rpx;
+      margin-right: 10rpx;
+  }
+  }
+  &-header-right{
+    color:@gray-text-color
+  }
+}

@@ -1,0 +1,1 @@
+<view class="custom-class {{ prefixCls }} {{ span ? prefixCls+'-span' + span : '' }} {{ offset ? prefixCls+'-offset' + offset : '' }}"><slot></slot></view>

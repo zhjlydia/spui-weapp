@@ -1,0 +1,29 @@
+
+<view class="demo-block">
+  <view class="demo-title">基础布局</view>
+  <view class="spui-weapp-border-top">
+    <spui-row>
+      <spui-col span="24" custom-class="dark">span: 24 100%</spui-col>
+    </spui-row>
+    <spui-row>
+      <spui-col span="12" custom-class="dark">span: 12 50%</spui-col>
+      <spui-col span="12" custom-class="light">span: 12 50%</spui-col>
+    </spui-row>
+    <spui-row>
+      <spui-col span="8" custom-class="dark">span: 8 33.33%</spui-col>
+      <spui-col span="8" custom-class="light">span: 8 33.33%</spui-col>
+      <spui-col span="8" custom-class="dark">span: 8 33.33%</spui-col>
+    </spui-row>
+  </view>
+</view>
+
+
+<view class="demo-block">
+  <view class="demo-title">左右偏移布局</view>
+  <view class="spui-weapp-border-top">
+    <spui-row>
+      <spui-col span="4" custom-class="dark">span: 4</spui-col>
+      <spui-col span="10" offset="4" custom-class="light">offset: 4, span: 10</spui-col>
+    </spui-row>
+  </view>
+</view>

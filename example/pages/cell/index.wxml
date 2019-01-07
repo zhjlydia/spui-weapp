@@ -1,0 +1,33 @@
+<view class="demo-block">
+
+  <view class="spui-weapp-border-top">
+    <spui-cell title="单行" border="{{ false }}"></spui-cell>
+  </view>
+</view>
+<view class="demo-block">
+  <view class="spui-weapp-border-top">
+    <spui-cell title="单行" border="{{ false }}" value="详细信息" is-link></spui-cell>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="spui-weapp-border-top">
+    <spui-cell title="单行" border="{{ false }}" description="附加信息" value="详细信息" is-link></spui-cell>
+  </view>
+</view>
+
+<view class="demo-block">
+  <view class="demo-title">cell组</view>
+  <view class="spui-weapp-border-top">
+    <spui-cell title="箭头" is-link></spui-cell>
+    <spui-cell title="表单">
+      <input type="number" placeholder="数字输入框"></input>
+    </spui-cell>
+    <spui-cell value="呵呵哒">
+      <view slot="title">
+        <spui-icon type="heart" class="marR10"/>
+        <text>带图标</text>
+      </view>
+    </spui-cell>
+  </view>
+</view>

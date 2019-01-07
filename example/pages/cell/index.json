@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Spui Weapp",
+  "usingComponents": {
+    "spui-icon":"../../dist/icon/index",
+    "spui-card":"../../dist/card/index",
+    "spui-cell": "../../dist/cell/index",
+    "spui-cell-group": "../../dist/cell-group/index"
+  }
+}
